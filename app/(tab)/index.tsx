@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { View,Text, TextInput, StyleSheet, ScrollView, Image } from "react-native";
 import { EvilIcons } from '@expo/vector-icons';
 import Entypo from '@expo/vector-icons/Entypo';
-import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import axios from "axios"
 type User = {
   id: number;
