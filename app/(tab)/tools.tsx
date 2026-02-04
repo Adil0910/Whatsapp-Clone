@@ -8,13 +8,13 @@ import AntDesign from '@expo/vector-icons/AntDesign';
 export default function Tools() {
   return (
     <ScrollView style={{ flex: 1, backgroundColor:"white" }}>
-      <View style={{paddingBlock:16,marginBottom:10,paddingLeft:19}}>
+      <View style={{paddingVertical:16,marginBottom:10,paddingLeft:19}}>
         <Text style={{fontSize:15,fontWeight:"600"}}>Last 7 days performance <Feather name="info" size={18} color="black" /> </Text>
       </View>
       <View style={{flex:1,flexDirection:"row",justifyContent:"center",gap:10}}>
         <View style={{borderWidth:0.1,padding:20,borderRadius:18}}>
           <MaterialIcons name="chat" size={24} color="black" />
-          <Text style={{fontWeight:"600",marginBlock:8}}>8</Text>
+          <Text style={{fontWeight:"600",marginVertical:8}}>8</Text>
           <Text style={{fontSize:12}}>Conversational</Text>
           <Text style={{fontSize:12}}>started</Text>
         </View>
@@ -25,15 +25,15 @@ export default function Tools() {
         </View>
          <View style={{borderWidth:0.1,padding:20,borderRadius:18}}>
          <MaterialCommunityIcons name="circle-double" size={24} color="black" />
-          <Text style={{marginBlock:8,fontWeight:"600"}}>137 <MaterialCommunityIcons name="call-made" size={14} color="green" /> </Text>
+          <Text style={{marginVertical:8,fontWeight:"600"}}>137 <MaterialCommunityIcons name="call-made" size={14} color="green" /> </Text>
           <Text style={{fontSize:11}}>Status views</Text>
         </View>
         
       </View>
-       <View style={{paddingBlock:16,marginBottom:10,paddingLeft:25}}>
+       <View style={{paddingVertical:16,marginBottom:10,paddingLeft:25}}>
         <Text style={{fontSize:14,fontWeight:"600",letterSpacing:1}}>Grow your business</Text>
       </View>
-      <View style={{flexDirection:"row",paddingInline:30,alignItems:"center",paddingBlock:10,marginBottom:10}}>
+      <View style={{flexDirection:"row",paddingHorizontal:30,alignItems:"center",paddingVertical:10,marginBottom:10}}>
 <Octicons name="verified" size={24} color="black" />
 <View style={{paddingLeft:20}}>
   <Text>Meta Verified</Text>
@@ -41,7 +41,7 @@ export default function Tools() {
 
 </View>
       </View>
-      <View style={{flexDirection:"row",paddingInline:30,alignItems:"center",paddingBlock:10,marginBottom:10}}>
+      <View style={{flexDirection:"row",paddingHorizontal:30,alignItems:"center",paddingVertical:10,marginBottom:10}}>
 <MaterialIcons name="grid-on" size={24} color="black" />
 <View style={{paddingLeft:20}}>
   <Text>Catalog</Text>
@@ -49,14 +49,14 @@ export default function Tools() {
 
 </View>
       </View>
-      <View style={{flexDirection:"row",paddingInline:35,alignItems:"center",paddingBlock:10,marginBottom:10}}>
+      <View style={{flexDirection:"row",paddingHorizontal:35,alignItems:"center",paddingVertical:10,marginBottom:10}}>
 <FontAwesome name="microphone" size={24} color="black" />
 <View style={{paddingLeft:24}}>
   <Text>Advertise</Text>
   <Text style={{fontSize:12,top:2}}>Create ads that lead to Whatsapp</Text>
 
 </View>
-      </View><View style={{flexDirection:"row",paddingInline:30,alignItems:"center",paddingBlock:10,marginBottom:10}}>
+      </View><View style={{flexDirection:"row",paddingHorizontal:30,alignItems:"center",paddingVertical:10,marginBottom:10}}>
 <MaterialCommunityIcons name="message-badge-outline" size={24} color="black" />
 <View style={{paddingLeft:20}}>
   <Text>Bussiness broadcasts</Text>
@@ -64,7 +64,7 @@ export default function Tools() {
 
 </View>
       </View>
-      <View style={{flexDirection:"row",paddingInline:35,alignItems:"center",paddingBlock:10,marginBottom:10}}>
+      <View style={{flexDirection:"row",paddingHorizontal:35,alignItems:"center",paddingVertical:10,marginBottom:10}}>
 <View>
   <Text><FontAwesome name="rupee" size={24} color="black" /></Text>
 </View>
@@ -74,10 +74,10 @@ export default function Tools() {
 
 </View>
       </View>
-       <View style={{paddingBlock:16,marginBottom:10,paddingLeft:25}}>
+       <View style={{paddingVertical:16,marginBottom:10,paddingLeft:25}}>
         <Text style={{fontSize:14,fontWeight:"600",letterSpacing:1}}>Manage your account</Text>
       </View>
-       <View style={{flexDirection:"row",paddingInline:28,alignItems:"center",paddingBlock:10,marginBottom:10}}>
+       <View style={{flexDirection:"row",paddingHorizontal:28,alignItems:"center",paddingVertical:10,marginBottom:10}}>
 <View>
   <Text><Feather name="home" size={24} color="black" /></Text>
 </View>
@@ -87,7 +87,7 @@ export default function Tools() {
 
 </View>
       </View>
-       <View style={{flexDirection:"row",paddingInline:27,alignItems:"center",marginBottom:10,borderBottomWidth:1,borderBottomColor:"#8080804d",paddingBottom:20}}>
+       <View style={{flexDirection:"row",paddingHorizontal:27,alignItems:"center",marginBottom:10,borderBottomWidth:1,borderBottomColor:"#8080804d",paddingBottom:20}}>
 <View>
   <Text><AntDesign name="link" size={24} color="black" /></Text>
 </View>
@@ -97,7 +97,7 @@ export default function Tools() {
 
 </View>
       </View>
-       <View style={{flexDirection:"row",paddingInline:26,alignItems:"center",paddingBlock:10,marginBottom:10}}>
+       <View style={{flexDirection:"row",paddingHorizontal:26,alignItems:"center",paddingVertical:10,marginBottom:10}}>
 <View>
   <Text><Feather name="help-circle" size={24} color="black" /></Text>
 </View>

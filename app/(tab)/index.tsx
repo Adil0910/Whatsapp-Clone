@@ -33,13 +33,13 @@ axios.get("https://dummyjson.com/users?limit=15")
         </View>
       </View>
       <View style={{flex:1,flexDirection:"row", marginBottom:20,paddingLeft:20}}>
-        <Text  style={{borderWidth:1,paddingBlock:6,paddingInline:10,borderRadius:20,marginInline:6,fontWeight:"600"}}>All</Text>
-        <Text  style={{borderWidth:1,paddingBlock:6,paddingInline:10,borderRadius:20,marginInline:4,fontWeight:"600"}}>Unread</Text>
-        <Text  style={{borderWidth:1,paddingBlock:6,paddingInline:10,borderRadius:20,marginInline:4,fontWeight:"600"}}>Favorites</Text>
-        <Text  style={{borderWidth:1,paddingBlock:6,paddingInline:10,borderRadius:20,marginInline:4,fontWeight:"600"}}>Groups</Text>
+        <Text  style={{borderWidth:1,paddingVertical:6,paddingHorizontal:10,borderRadius:20,marginHorizontal:6,fontWeight:"600"}}>All</Text>
+        <Text  style={{borderWidth:1,paddingVertical:6,paddingHorizontal:10,borderRadius:20,marginHorizontal:4,fontWeight:"600"}}>Unread</Text>
+        <Text  style={{borderWidth:1,paddingVertical:6,paddingHorizontal:10,borderRadius:20,marginHorizontal:4,fontWeight:"600"}}>Favorites</Text>
+        <Text  style={{borderWidth:1,paddingVertical:6,paddingHorizontal:10,borderRadius:20,marginHorizontal:4,fontWeight:"600"}}>Groups</Text>
       </View>
 {user.map((item) => (
-  <View key={item.id} style={{ flex:1,flexDirection:"row",paddingInline:20,paddingBlock:8,marginBottom:15, }}>
+  <View key={item.id} style={{ flex:1,flexDirection:"row",paddingHorizontal:20,paddingVertical:8,marginBottom:15, }}>
     <Image
       source={{ uri: item.image }}
       style={{ width: 45, height: 45, borderRadius: 100,borderWidth:2, }}
